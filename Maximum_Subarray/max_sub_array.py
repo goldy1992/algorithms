@@ -8,6 +8,7 @@ class Solution:
         if len(nums) == 1:
             return nums[0]
 
+        # init variables
         current_max = nums[0]
         current_sum = nums[0]
 
